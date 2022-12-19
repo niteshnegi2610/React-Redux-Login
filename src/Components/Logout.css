@@ -1,0 +1,31 @@
+.logout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logout-btn {
+  min-width: 300px;
+  padding: 17px 30px;
+  margin-top: 20px;
+  background: #15a86b;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.user-name {
+  color: darkcyan;
+}
+
+.logout-btn:hover,
+.logout-btn:focus {
+  background-color: #20634a;
+}
